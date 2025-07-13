@@ -3,9 +3,6 @@
         <div class="fruite-img">
             <img src="{{ asset('assets/img/' . $product->image) }}" class="img-fluid w-100 rounded-top" alt="">
         </div>
-        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">
-            Fruits
-        </div>
         <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column flex-grow-1">
             <h4>{{ $product->name }}</h4>
             <p class="text-muted flex-grow-1 overflow-hidden text-truncate"
